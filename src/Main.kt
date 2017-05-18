@@ -1,6 +1,10 @@
+import java.util.*
+
 fun main(args: Array<String>){
-	val helloWorld : String = "HolaMundo" //Variable final --> val
-	println(helloWorld)
+	println("Escribe un texto:")
+	val scanner=Scanner(System.`in`)
+	val helloWorld : String = scanner.nextLine() //Variable final --> val
+	println("Texto: $helloWorld")
 	println(sumar(1,2))
 	var edad : Int = 17 //Variable dinámica --> var
 	println(mayorDeEdad(edad))
