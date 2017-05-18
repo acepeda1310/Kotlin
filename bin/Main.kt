@@ -4,7 +4,7 @@ fun main(args: Array<String>){
 	println("Escribe un texto:")
 	val scanner=Scanner(System.`in`)
 	val helloWorld : String = scanner.nextLine() //Variable final --> val
-	println("Texto: $helloWorld")
+	println("Texto: ${if(helloWorld!="") helloWorld else "No se introdujo texto"}")
 	println(sumar(1,2))
 	var edad : Int = 17 //Variable dinámica --> var
 	println(mayorDeEdad(edad))
