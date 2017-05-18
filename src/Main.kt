@@ -1,8 +1,9 @@
 fun main(args: Array<String>){
-	println("Hola mundo")
+	val helloWorld : String = "HolaMundo" //Variable final --> val
+	println(helloWorld)
 	println(sumar(1,2))
-	println(mayorDeEdad(17))
-	println(mayorDeEdad(18))
+	var edad : Int = 17 //Variable dinámica --> var
+	println(mayorDeEdad(edad))
 }
 
 fun sumar(num1:Int,num2:Int)=num1+num2
